@@ -1,0 +1,100 @@
+.service{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 80px 10%;
+}
+.service p,s.service h2{
+    text-align: center;
+}
+.service h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--main-color);
+}
+.service_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    gap: 50px;
+}
+.service_card{
+    display: flex; 
+    flex-direction: column;
+    gap: 22px;
+    border: 2px solid rgba(128, 128, 128, .5);
+    padding: 30px;
+    transition: .6s;
+    position: relative;
+    overflow: hidden;
+}
+.service_card:after{
+    content: "";
+    position: absolute;
+    left: -80%;
+    top: -80%;
+    height: 200%;
+    background-color:rgb(225, 0, 0,1) ;
+    filter: blur(40px);
+    transition: 1s;
+    transform: rotate(30deg);
+    width: 20px;
+}
+.service_card:hover:after{
+    left: 200%;
+}
+.service_card:hover{
+    border: 2px solid var(--main-color);
+    box-shadow: 5px 15px 16px var(--main-color);
+    transform: translateY(-8px);
+}
+.service_card #icon{
+    font-size: 2.3rem;
+    transition: .6s;
+}
+.service_card p{
+    text-align: start;
+}
+.service_card h3{
+    color: #fff;
+    letter-spacing: .9;
+    font-size: 1.4rem;
+    transition: .6s;
+}
+.service_card:hover h3,.service_card:hover #icon{
+    color: var(--main-color);
+}
+.service_card a{
+    color: #ddd;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid var(--main-color);
+    color: red;
+    width: 45%;
+    padding: 5px;
+}
+
+@media (max-width:1300px) {
+    .service_cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:950px) {
+    .service_cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service_card a{
+        width:40%;
+    }
+}
+@media (max-width:450px) {
+    .service_card a{
+        width: 60%;
+    }
+}
+
