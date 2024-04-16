@@ -19,13 +19,6 @@ function Service(){
                     </div>
 
                     <div className={ServicesCss.service_card} data-aos="zoom-in" data-aos-duration="1500">
-                        <i className="fa-solid fa-camera-retro" id={ServicesCss.icon}></i>
-                        <h3>Photo/Vidio Editor</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. voluptatibus enim laudantium sit aliquam earum! Ipsam, tenetur nesciunt. Soluta, vitae!</p>
-                        <a href="">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-
-                    <div className={ServicesCss.service_card} data-aos="zoom-in" data-aos-duration="1500">
                         <i class="fa-solid fa-code" id={ServicesCss.icon}></i>
                         <h3>Web Development</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. voluptatibus enim laudantium sit aliquam earum! Ipsam, tenetur nesciunt. Soluta, vitae!</p>
@@ -42,6 +35,13 @@ function Service(){
                     <div className={ServicesCss.service_card} data-aos="zoom-in" data-aos-duration="1500">
                         <i class="fa-solid fa-mobile-screen" id={ServicesCss.icon}></i>
                         <h3>Mobile App Development</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. voluptatibus enim laudantium sit aliquam earum! Ipsam, tenetur nesciunt. Soluta, vitae!</p>
+                        <a href="">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+
+                    <div className={ServicesCss.service_card} data-aos="zoom-in" data-aos-duration="1500">
+                        <i className="fa-solid fa-camera-retro" id={ServicesCss.icon}></i>
+                        <h3>Photo/Vidio Editor</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. voluptatibus enim laudantium sit aliquam earum! Ipsam, tenetur nesciunt. Soluta, vitae!</p>
                         <a href="">Read more <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
