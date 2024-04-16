@@ -20,7 +20,7 @@ function Project(){
                         <div>
                             <h4>Futurestic Gaming website</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum nulla magnam excepturi adipisci tempore voluptatum quae officiis dolorem doloremque vel, sit nihil expedita, iusto aliquam consectetur at possimus? Voluptatibus.</p>
-                            <a href="">Read more<i class="fa-solid fa-arrow-right-long"></i></a>
+                            <a href="https://rizanriz.github.io/futurestic/" target="blank" >Read more<i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
 
@@ -29,7 +29,7 @@ function Project(){
                         <div>
                             <h4>Responsive Bank Website</h4>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorum nulla magnam excepturi adipisci tempore voluptatum quae officiis dolorem doloremque vel, sit nihil expedita, iusto aliquam consectetur at possimus? Voluptatibus.</p>
-                            <a href="">Read more<i class="fa-solid fa-arrow-right-long"></i></a>
+                            <a href="https://rizanriz.github.io/Bank/" target="blank">Read more<i class="fa-solid fa-arrow-right-long"></i></a>
                         </div>
                     </div>
 

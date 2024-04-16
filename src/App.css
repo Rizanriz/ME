@@ -7,12 +7,13 @@
     list-style: none;
     text-decoration: none;
     font-family: "poppins";
+    scroll-behavior: smooth;
 }
 
 :root{
     --main-color:#ff3131;
-    /* --text-color:#fff; */
-    /* --text-color2:#ffffffe1; */
+    --text-color:#fff;
+    --text-color2:#ffffffe1;
 }
 body{
     background-color: rgb(18, 18, 18);

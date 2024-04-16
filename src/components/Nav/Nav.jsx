@@ -22,10 +22,10 @@ function Nav() {
                     </div>
                     <div className={NavCSS.nav} style={{ height: navbar.height, padding: navbar.padding }}>
                         <a href="" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200">Home</a>
-                        <a href="" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="300">About</a>
-                        <a href="" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400">Services</a>
-                        <a href="" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500">Projects</a>
-                        <a href="" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600">Contact</a>
+                        <a href="#about" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="300">About</a>
+                        <a href="#service" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400">Services</a>
+                        <a href="#projects" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="500">Projects</a>
+                        <a href="#Contact" data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600">Contact</a>
                     </div>
                     <div className={NavCSS.bars} onClick={activeNav}>
                         <span></span>
